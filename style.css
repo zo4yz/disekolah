@@ -79,4 +79,80 @@ object-fit: cover;
   gap: 0.5rem;
 }
 
+.slider .list .item .detail figure img {
+  width: 2.4rem;
+}
 
+.slider .list .item .detail figure figcaption {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+
+.slider .list .item .detail .desc {
+  margin-top: 1rem;
+  font-weight: 100;
+  font-size:1rem;
+  max-width: 40rem;
+  text-shadow: 1px 1px 1px #000;
+}
+.slider .list .item .detail .more {
+  display: inline-block;
+  margin-top: 1.4rem;
+  text-align: none;
+  background-color: #fff;
+  color: #000;
+  padding: 0.6rem 0.8rem;
+}
+
+.slider .list .item .detail .more:hover {
+  color: #fff;
+  background-color: #000;
+
+}
+
+.thumnaiil {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  width: max-content;
+  z-index: 999;
+  display: flex;
+  gap: 20px;
+}
+
+.thumnail .item {
+  width: 150px;
+  height: 220px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.thumnail .item img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.thumnail .item .detail {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  right: 10px;
+}
+
+.thumnail .item .detail .name {
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 5px;
+  text-shadow: 1px 1px 1px #000;
+}
+.thumnail .item .detail blockquote {
+  font-size: 0.7rem;
+  font-weight: 100;
+  text-align: right;
+  text-shadow: 1px 1px 1px #000;
+}
